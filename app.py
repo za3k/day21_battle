@@ -10,7 +10,7 @@ from base import app,load_info,ajax,DBDict,DBList,random_id,hash_id,full_url_for
 # -- Info for every Hack-A-Day project --
 load_info({
     "project_name": "Hack-A-Battle",
-    "source_url": "https://github.com/za3k/day20_battle",
+    "source_url": "https://github.com/za3k/day21_battle",
     "subdir": "/hackaday/battle",
     "description": "a battle of the bands music visualizer. As one side takes damage, they get dimmer and quieter",
     "instructions": "",
