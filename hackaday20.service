@@ -1,0 +1,11 @@
+[Unit]
+Description=gunicorn3 for hackaday-20-battle
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/hackaday/day20_battle
+ExecStart=/bin/gunicorn3 -e SCRIPT_NAME=/hackaday/battle --bind 0.0.0.0:8020 app:app
+
+[Install]
+WantedBy=multi-user.target

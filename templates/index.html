@@ -1,0 +1,15 @@
+{% extends 'base2.html' %}
+
+{% block header %}
+    <h3>{% block title %}{{ project_name }}{% endblock %}</h3>
+    {{ project_name }} is {{ description }}. {{ instructions | safe }}
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="debug">Game objects: <span class="counter">--</span></div>
+<div class="game">
+    <audio class="band band-red game-object" src="{{ url_for("static", filename="sound/4t.mp3") }}" autoplay controls loop></audio>
+    <audio class="band band-blue game-object" src="{{ url_for("static", filename="sound/switch.mp3") }}" autoplay controls loop></audio>
+</div>
+{% endblock %}
