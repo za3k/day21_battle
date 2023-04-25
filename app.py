@@ -12,7 +12,7 @@ load_info({
     "project_name": "Hack-A-Battle",
     "source_url": "https://github.com/za3k/day21_battle",
     "subdir": "/hackaday/battle",
-    "description": "a battle of the bands music visualizer. As one side takes damage, they get dimmer and quieter",
+    "description": "a battle of the bands music visualizer. As one side takes damage, they get dimmer and quieter. Sorry if your phone/computer stuggles on this one.",
     "instructions": "",
     "login": False,
     "fullscreen": True,

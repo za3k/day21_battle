@@ -2,7 +2,7 @@ Hack-A-Day is a project I'm doing in November, where I try to make 30 new projec
 
 # Day 21: Hack-A-Battle
 
-A battle of the bands music visualizer.
+A battle of the bands music visualizer. Your computer may struggle on this one.
 
 [![Screenshot](screenshot.png)](https://tilde.za3k.com/hackaday/battle)
 
